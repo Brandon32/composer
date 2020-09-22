@@ -1,6 +1,7 @@
 FROM php:7.2-alpine
 
 RUN apk add --no-cache git \
+    patch \
     freetype \
     libpng \
     libjpeg-turbo \
